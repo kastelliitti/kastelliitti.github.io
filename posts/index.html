@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            KaLuSat | Posts
+        </title>
+        <link rel="stylesheet" href="/ui.css">
+    </head>
+    <body>
+        <nav>
+            <a href="/">
+                <img src="/logo.jpg">
+                <h1>
+                    KaLuSat
+                </h1>
+            </a>
+        </nav>
+        <div id="main-container">
+            <div id="post-list">
+                <a href="#" onclick="view('post1.md')">Post 1</a>
+                <a href="#" onclick="view('post2.md')">Post 2</a>
+            </div>
+            <button id="back-btn" onclick="back()">
+                Back
+            </button>
+            <div id="markdown-viewer">
+                Loading post...
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+            function view(filename) {
+                $("#markdown-viewer").load(filename, function(response, status, xhr) {
+                    $("#markdown-viewer").show();
+                    $("#back-btn").show();
+                    $("#post-list").hide();
+                    if (status == "success") {
+                        $("#markdown-viewer").html(marked.parse($("#markdown-viewer").html()));
+                    } else {
+                        $("#markdown-viewer").text("Failed to load post");
+                    }
+                    
+                });
+            }
+
+            function back() {
+                $("#markdown-viewer").hide();
+                $("#back-btn").hide();
+                $("#post-list").show();
+                $("#markdown-viewer").html("Loading post...");
+            }
+
+            $(document).ready(function() {
+                $("#markdown-viewer").hide();
+                $("#back-btn").hide();
+            })
+        </script>
+    </body>
+</html>

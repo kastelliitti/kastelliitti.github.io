@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: dodgerblue;
+    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav h1 {
+    color: white;
+    padding: 15px;
+    padding-left: 80px;
+    font-size: 24px;
+    margin: 0;
+}
+
+nav img {
+    height: 59px;
+    float: left;
+}
+
+#main-container {
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+#post-list a {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    #main-container {
+        width: 100%;
+        background-color: white;
+        margin: 0px;
+    }
+}
