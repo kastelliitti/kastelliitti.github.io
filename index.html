@@ -4,25 +4,59 @@
         <title>
             KaLuSat | Homepage
         </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="/ui.css">
         <link rel="icon" type="image/x-icon" href="/logo.jpg">
     </head>
     <body>
+
+        <!-- NAVBAR -->
+
         <nav>
             <a href="/">
-                <img src="logo.jpg">
-                <h1>
-                   <a style="color:white">KaLuSat</a> | <a href="posts/", style="color:white">Posts</a>
-                </h1>
+                <img src="/logo.jpg">
+                <a href="/">
+                    <div class="nav-title">
+                        KaLuSat
+                    </div>
+                </a>
             </a>
         </nav>
-        <div id="main-container">
+        <div class="nav-links">
+            <a class="nav-link" href="posts/">
+                Posts
+            </a>
+            <a class="nav-link" href="#">
+                About
+            </a>
+        </div>
+
+        <!-- END NAVBAR -->
+
+        <div class="front-image" style="background-image: url('/logo.jpg');">
+            <div class="front-image-txt">
+                Homepage Cover Image
+            </div>
+        </div>
+        <div class="showcase-text">
             <h1>
-                TITLE
+                Showcase Text
             </h1>
             <p>
-                PARAGRAPH 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed purus vel leo egestas molestie.
+                Suspendisse potenti. Duis in mollis urna, non luctus erat. Donec pharetra libero venenatis felis aliquet vehicula.
+                Sed tempus sem vitae malesuada pretium. Pellentesque porta mollis cursus. Nam vel orci euismod, dapibus lacus at, porta elit.
             </p>
+            <a href="posts/">
+                <button class="showcase-button">
+                    Another Link to the Posts
+                </button>
+            </a>
+        </div>
+        <div class="front-image" style="background-image: url('/logo.jpg');">
+            <div class="front-image-txt">
+                Same Image Again (note parallax scrolling)
+            </div>
         </div>
     </body>
 </html>

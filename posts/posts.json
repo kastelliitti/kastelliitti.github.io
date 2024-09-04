@@ -1,0 +1,12 @@
+{
+    "posts" : [
+        {
+            "name" : "Post 1",
+            "file" : "post1.md"
+        },
+        {
+            "name" : "Post 2",
+            "file" : "post2.md"
+        }
+    ]
+}
