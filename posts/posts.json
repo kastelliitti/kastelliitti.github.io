@@ -1,6 +1,10 @@
 {
     "posts" : [
         {
+            "name": "Shitpost 1",
+            "file": "post3.md" 
+        },
+        {
             "name" : "Post 2",
             "file" : "post2.md"
         },
