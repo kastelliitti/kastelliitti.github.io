@@ -49,11 +49,21 @@ nav img {
     margin-top: 100px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}
+
+#main-container:has(#post-list) {
+    background-color: #685BC7;
+    box-shadow: 0 4px 8px 0 rgba(104, 91, 199, 0.8);
+    color: white;
 }
 
 #post-list {
     list-style-type: none;
     border: 1px solid #aaa;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    overflow: hidden;
     padding: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
@@ -71,7 +81,7 @@ nav img {
 }
 
 #post-list li:nth-child(even) {
-    background-color: #eee;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 #post-list li:hover {
