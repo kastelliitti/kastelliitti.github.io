@@ -67,6 +67,7 @@ nav img {
 #post-list li a {
     color:#685BC7;
     text-decoration: none; 
+    display: block;
 }
 
 #post-list li:nth-child(even) {
