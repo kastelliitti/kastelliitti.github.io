@@ -1,16 +1,8 @@
 {
     "posts" : [
         {
-            "name": "Shitpost 1",
-            "file": "post3.md" 
-        },
-        {
-            "name" : "Post 2",
-            "file" : "post2.md"
-        },
-        {
-            "name" : "Post 1",
-            "file" : "post1.md"
+            "name" : "Blog 1: Chassis",
+            "file" : "blog-post-1-chassis.md"
         }
     ]
 }
