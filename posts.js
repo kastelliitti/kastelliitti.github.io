@@ -8,7 +8,7 @@ $(document).ready(function() {
             return;
         }
         for (var i = 0; i < posts.length; i++) {
-            $("#post-list").append("<li><a href=\"viewer/?p=" + i + "\">" + posts[i].name + "</a></li>");
+            $("#post-list").append("<li><a href=\"viewer/?p=" + i + "\"><h3>" + posts[i].name + "</h3><p>" + posts[i].date + "</p></a></li>");
         }
     });
 });
