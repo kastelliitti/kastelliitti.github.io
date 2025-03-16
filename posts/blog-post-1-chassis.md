@@ -5,7 +5,7 @@ We have completed our first prototype of the chassis. It consist of three parts:
 2. Inner body
 3. PCB tray
 
-![Picture of the design](/pictures/cansat_210225.png)
+<img src="/pictures/cansat_210225.png" width="500">
 
 The chassis is printed out of PETG with 0.2mm layer height and 2 wall lines. Due to printer limitations, we had to print it vertically, which may be detrimental to the Y-axis strength. However, we expect the layer adhesion to be adequate and we will test whether it withstands 20G's.
 
