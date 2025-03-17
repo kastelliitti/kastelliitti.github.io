@@ -10,4 +10,4 @@ The design is very simple, consisting of three distinct parts.
 
 <insert image of finished product here>
 
-This will greatly help us to gain a consistent spacing. It's a small thing, but a bunch of good small things will yield an excellent unit.
+This will greatly help us to gain a consistent spacing. It's a small thing, but a bunch of good small things will result in an excellent unit.
