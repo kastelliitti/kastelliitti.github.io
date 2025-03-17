@@ -4,6 +4,11 @@
             "name" : "Blog 1: Chassis",
             "date": "21.2.2025",
             "file" : "blog-post-1-chassis.md"
+        },
+        {
+            "name" : "Blog 2: Chassis",
+            "date": "21.2.2025",
+            "file" : "blog-post-2-wrapping-station.md"
         }
     ]
 }
