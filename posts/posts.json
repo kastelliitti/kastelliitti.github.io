@@ -1,6 +1,11 @@
 {
     "posts" : [
         {
+            "name" : "Blog 3: The Parachute",
+            "date" : "27.3.2025",
+            "file" : "post4.md"
+        }
+        {
             "name" : "Blog 2: Coil Wrapping Station",
             "date": "17.3.2025",
             "file" : "blog-post-2-wrapping-station.md"
